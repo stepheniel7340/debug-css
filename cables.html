@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Cable Wrapping</title>
+    
+    <!-- Problem 1: this font was imported, but how do we make <h3>The solution?</h3> show up as the Oswald font?-->
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    
+    
+    <style type="text/css">
+    
+    
+      /*Problem 2*/
+      h1 {
+        font-size: 60;
+      }
+      
+      
+      /* Problem 3: why isn't the h4 showing up in this font?*/
+        font-family: 'Raleway', sans-serif;
+      
+      
+       
+      /*Problem 4: both images of tangled wires have the red-border class*/
+      /*Why isn't this working?*/
+      red-border {
+        border: 10px solid red;
+      }
+       
+       
+      /*Problem 5: the gif of the solution has the solution ID*/
+      /*Why isn't this working?*/
+      solution {
+        border: 10px solid green;
+      }
+      
+      
+      /*Problem 6: the "you can do it" image is too big. Help make it smaller!*/
+      #encouragement {
+        size: 300px;
+      }
+      
+      
+      /*Problem 7: the developer is trying to make the image a perfectly-rounded circle */
+      /*Guess-and-check is taking too long with pixels*/
+      /*HINT: there's a certain percentage that make this work*/
+      #happy {
+        border-radius: 100px;
+      }
+      
+      
+      .red-text {
+        color: red;
+      }
+      
+      /*Problem 8*/
+      .gray-background {
+        bg-color: lightgray;
+      }
+      
+    </style>
+  </head>
+  <body>
+
+    <h1>How to Wrap Cables</h1>
+    
+    
+    <!--Problem 9-->
+    <h2 color="red">Have you ever had to untangle a cable?</h2>
+    
+    
+    <img src="tangled1.jpg" class="red-border">
+    <br>
+    <img src="tangled2.jpg" class="red-border">
+    <br>
+    
+    
+    <h3>The solution?</h3>
+    <h4>The alternating method!</h4>
+    
+    
+    <div class="gray-background">
+      <p>Wrap your cables in a circle...</p>
+      <ol>
+        <li>On the first loop, roll the cable away from you.</li>
+        <li>On the second loop, roll the cable toward you.</li>
+        <li>Repeat!</li>
+      </ol>
+    </div>
+    
+    <img src="overunder.gif" id="solution">
+    <br>
+    
+    <!--Problem 10: This is supposed to have red text and a red border-->
+    <!--There are multiple classes, why aren't they both working?-->
+    <p class="red-text" class="red-border">Here's a link to a more thorough <a href="https://petapixel.com/2017/06/12/heres-right-way-wrap-cords-cables/">article</a></p>
+    
+    <img src="youcandoit.gif" id="encouragement">
+    <br>
+    
+    <img src="happy.jpg" id="happy">
+    <br>
+  
+  </body>
+</html>
